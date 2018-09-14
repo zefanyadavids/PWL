@@ -23,7 +23,7 @@
 	</div>
 	<div id="kawasaki">
 		<?php 
-		//============honda============
+		//============kawasaki============
 		include 'kawasaki.php';
 		?>
 	</div>
