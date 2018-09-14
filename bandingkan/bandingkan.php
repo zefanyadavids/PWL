@@ -1,5 +1,6 @@
 <?php  
 	$url1 = $_POST['url1'];
+	//comen
 ?>
 <!DOCTYPE html>
 <html>
