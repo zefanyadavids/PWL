@@ -6,6 +6,7 @@
 
 	$dimensi = $xpath->query('//*[@id="tabs-3"]/table/tr[1]/td[2]');
 	echo "Dimensi : ".$dimensi->item(0)->nodeValue."<br/>";
+
 	$tipe_mesin = $xpath->query('//*[@id="tabs-1"]/table/tr[1]/td[2]');
 	echo "Tipe Mesin : ".$tipe_mesin->item(0)->nodeValue."<br/>";
 
