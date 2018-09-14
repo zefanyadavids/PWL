@@ -1,3 +1,6 @@
+<?php  
+	$url1 = $_POST['url1'];
+?>
 <!DOCTYPE html>
 <html>
 <head>
