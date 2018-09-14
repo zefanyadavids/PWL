@@ -1,6 +1,6 @@
 <?php  
 	$url1 = $_POST['url1'];
-	//comen
+	$merk1 = $_POST['merk'];
 ?>
 <!DOCTYPE html>
 <html>

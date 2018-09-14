@@ -15,7 +15,6 @@
 			echo $result_url->item($i)->nodeValue."<br/>";
 			echo $result_price->item($i)->nodeValue."<br/>";
 			echo $result->nodeValue."<br/>"."<br/>";
-			$i++;
 
 	?>	<!--URL untuk select motornya-->
 		<form action="../spesifikasi/spesifikasi-yamaha.php" method="post" enctype="multipart/form-data">
@@ -24,10 +23,12 @@
 		</form>
 
 		<form action="../bandingkan/bandingkan.php" method="post" enctype="multipart/form-data">
+			<input type="hidden" name="merk" value="yamaha">
 			<input type="hidden" name="url1" value=<?php echo '"'.$result_url->item($i)->nodeValue.'"' ?>>
 			<input type="submit" name="submit" value="Bandingkan">
 		</form>
 	<?php
+			$i++;
 		}	
 
 		//===================maxi===================
@@ -40,7 +41,6 @@
 			echo $result_url->item($i)->nodeValue."<br/>";
 			echo $result_price->item($i)->nodeValue."<br/>";
 			echo $result->nodeValue."<br/>"."<br/>";
-			$i++;
 	?>	<!--URL untuk select motornya-->
 		<form action="../spesifikasi/spesifikasi-yamaha.php" method="post" enctype="multipart/form-data">
 			<input type="hidden" name="url_detail" value=<?php echo '"'.$result_url->item($i)->nodeValue.'"' ?>>
@@ -48,10 +48,12 @@
 		</form>
 
 		<form action="../bandingkan/bandingkan.php" method="post" enctype="multipart/form-data">
+			<input type="hidden" name="merk" value="yamaha">
 			<input type="hidden" name="url1" value=<?php echo '"'.$result_url->item($i)->nodeValue.'"' ?>>
 			<input type="submit" name="submit" value="Bandingkan">
 		</form>
 	<?php
+			$i++;
 		}	
 
 		//===================naked bike===================
@@ -64,9 +66,9 @@
 			echo $result_url->item($i)->nodeValue."<br/>";
 			echo $result_price->item($i)->nodeValue."<br/>";
 			echo $result->nodeValue."<br/>"."<br/>";
-			$i++;
 	?>	<!--URL untuk select motornya-->
 		<form action="../spesifikasi/spesifikasi-yamaha.php" method="post" enctype="multipart/form-data">
+			<input type="hidden" name="merk" value="yamaha">
 			<input type="hidden" name="url_detail" value=<?php echo '"'.$result_url->item($i)->nodeValue.'"' ?>>
 			<input type="submit" name="submit" value="Detail">
 		</form>
@@ -76,6 +78,7 @@
 			<input type="submit" name="submit" value="Bandingkan">
 		</form>
 	<?php
+			$i++;
 		}	
 
 		//===================sport===================
@@ -88,7 +91,6 @@
 			echo $result_url->item($i)->nodeValue."<br/>";
 			echo $result_price->item($i)->nodeValue."<br/>";
 			echo $result->nodeValue."<br/>"."<br/>";
-			$i++;
 	?>	<!--URL untuk select motornya-->
 		<form action="../spesifikasi/spesifikasi-yamaha.php" method="post" enctype="multipart/form-data">
 			<input type="hidden" name="url_detail" value=<?php echo '"'.$result_url->item($i)->nodeValue.'"' ?>>
@@ -96,10 +98,12 @@
 		</form>
 
 		<form action="../bandingkan/bandingkan.php" method="post" enctype="multipart/form-data">
+			<input type="hidden" name="merk" value="yamaha">
 			<input type="hidden" name="url1" value=<?php echo '"'.$result_url->item($i)->nodeValue.'"' ?>>
 			<input type="submit" name="submit" value="Bandingkan">
 		</form>
 	<?php
+			$i++;
 		}	
 
 		//===================moviestar===================
@@ -112,7 +116,6 @@
 			echo $result_url->item($i)->nodeValue."<br/>";
 			echo $result_price->item($i)->nodeValue."<br/>";
 			echo $result->nodeValue."<br/>"."<br/>";
-			$i++;
 	?>	<!--URL untuk select motornya-->
 		<form action="../spesifikasi/spesifikasi-yamaha.php" method="post" enctype="multipart/form-data">
 			<input type="hidden" name="url_detail" value=<?php echo '"'.$result_url->item($i)->nodeValue.'"' ?>>
@@ -120,10 +123,12 @@
 		</form>
 
 		<form action="../bandingkan/bandingkan.php" method="post" enctype="multipart/form-data">
+			<input type="hidden" name="merk" value="yamaha">
 			<input type="hidden" name="url1" value=<?php echo '"'.$result_url->item($i)->nodeValue.'"' ?>>
 			<input type="submit" name="submit" value="Bandingkan">
 		</form>
 	<?php
+			$i++;
 		}	
 
 		//===================cbu===================
@@ -136,7 +141,6 @@
 			echo $result_url->item($i)->nodeValue."<br/>";
 			echo $result_price->item($i)->nodeValue."<br/>";
 			echo $result->nodeValue."<br/>"."<br/>";
-			$i++;
 	?>	<!--URL untuk select motornya-->
 		<form action="../spesifikasi/spesifikasi-yamaha.php" method="post" enctype="multipart/form-data">
 			<input type="hidden" name="url_detail" value=<?php echo '"'.$result_url->item($i)->nodeValue.'"' ?>>
@@ -144,10 +148,12 @@
 		</form>
 
 		<form action="../bandingkan/bandingkan.php" method="post" enctype="multipart/form-data">
+			<input type="hidden" name="merk" value="yamaha">
 			<input type="hidden" name="url1" value=<?php echo '"'.$result_url->item($i)->nodeValue.'"' ?>>
 			<input type="submit" name="submit" value="Bandingkan">
 		</form>
 	<?php
+			$i++;
 		}
 
 		//===================atv===================
@@ -160,7 +166,6 @@
 			echo $result_url->item($i)->nodeValue."<br/>";
 			echo $result_price->item($i)->nodeValue."<br/>";
 			echo $result->nodeValue."<br/>"."<br/>";
-			$i++;
 	?>	<!--URL untuk select motornya-->
 		<form action="../spesifikasi/spesifikasi-yamaha.php" method="post" enctype="multipart/form-data">
 			<input type="hidden" name="url_detail" value=<?php echo '"'.$result_url->item($i)->nodeValue.'"' ?>>
@@ -168,9 +173,11 @@
 		</form>
 
 		<form action="../bandingkan/bandingkan.php" method="post" enctype="multipart/form-data">
+			<input type="hidden" name="merk" value="yamaha">
 			<input type="hidden" name="url1" value=<?php echo '"'.$result_url->item($i)->nodeValue.'"' ?>>
 			<input type="submit" name="submit" value="Bandingkan">
 		</form>
 	<?php
+			$i++;
 		}		
 	?>
