@@ -17,6 +17,18 @@
 			//print setiap nama motor honda
 			echo $result->nodeValue."<br/>"."<br/>";
 			$i++;	
+	?>	<!--URL untuk select motornya-->
+		<form action="../spesifikasi/spesifikasi-honda-sport-cub.php" method="post" enctype="multipart/form-data">
+			<input type="hidden" name="url_detail" value=<?php echo '"'.$result_url->item($i)->nodeValue.'"' ?>>
+			<input type="submit" name="submit" value="Detail">
+		</form>
+
+		<form action="../bandingkan/bandingkan.php" method="post" enctype="multipart/form-data">
+			<input type="hidden" name="url1" value=<?php echo '"'.$result_url->item($i)->nodeValue.'"' ?>>
+			<input type="submit" name="submit" value="Bandingkan">
+		</form>
+
+	<?php
 		}
 
 		//=============matic=================
@@ -34,7 +46,20 @@
 			echo $result_url->item($i)->nodeValue."<br/>";
 			//print setiap nama motor honda
 			echo $result->nodeValue."<br/>"."<br/>";
-			$i++;	
+			$i++;
+
+	?>	<!--URL untuk select motornya-->
+		<form action="../spesifikasi/spesifikasi-honda-matic.php" method="post" enctype="multipart/form-data">
+			<input type="hidden" name="url_detail" value=<?php echo '"'.$result_url->item($i)->nodeValue.'"' ?>>
+			<input type="submit" name="submit" value="Detail">
+		</form>
+
+		<form action="../bandingkan/bandingkan.php" method="post" enctype="multipart/form-data">
+			<input type="hidden" name="url1" value=<?php echo '"'.$result_url->item($i)->nodeValue.'"' ?>>
+			<input type="submit" name="submit" value="Bandingkan">
+		</form>
+
+	<?php
 		}
 
 		//=============sport=================
@@ -53,5 +78,17 @@
 			//print setiap nama motor honda
 			echo $result->nodeValue."<br/>"."<br/>";
 			$i++;	
+	?>	<!--URL untuk select motornya-->
+		<form action="../spesifikasi/spesifikasi-honda-sport-cub.php" method="post" enctype="multipart/form-data">
+			<input type="hidden" name="url_detail" value=<?php echo '"'.$result_url->item($i)->nodeValue.'"' ?>>
+			<input type="submit" name="submit" value="Detail">
+		</form>
+
+		<form action="../bandingkan/bandingkan.php" method="post" enctype="multipart/form-data">
+			<input type="hidden" name="url1" value=<?php echo '"'.$result_url->item($i)->nodeValue.'"' ?>>
+			<input type="submit" name="submit" value="Bandingkan">
+		</form>
+	<?php
+
 		}
 	?>
