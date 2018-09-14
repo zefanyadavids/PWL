@@ -2,8 +2,8 @@
 <?php 
 	ini_set('display_errors', 'Off');
 	$url = "http://product.kawasaki-motor.co.id/prdcdetail-113-ninja-h2-carbon.html";
-	include 'curl.php';
-	include 'dom.php';
+	include '../curl.php';
+	include '../dom.php';
 
 	$dimensi = $xpath->query('/html/body/div[1]/div/div/div[4]/div[4]/div[4]/table/tr[8]/td[2]');
 	echo "dimensi : ".$dimensi->item(0)->nodeValue."<br/>";

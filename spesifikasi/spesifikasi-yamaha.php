@@ -1,8 +1,8 @@
 <?php 
 	ini_set('display_errors', 'Off');
 	$url = "https://www.yamaha-motor.co.id/product/xride";
-	include 'curl.php';
-	include 'dom.php';
+	include '../curl.php';
+	include '../dom.php';
 
 	$dimensi = $xpath->query('//*[@id="specification"]/section/div[1]/div/section[1]/div[2]/table/tr[1]/td[2]');
 	echo "dimensi : ".$dimensi->item(0)->nodeValue."<br/>";

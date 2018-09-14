@@ -1,8 +1,8 @@
 <?php 
 	ini_set('display_errors', 'Off');
 	$url = "http://www.astra-honda.com/product/cbr150r";
-	include 'curl.php';
-	include 'dom.php';
+	include '../curl.php';
+	include '../dom.php';
 
 	$dimensi = $xpath->query('//*[@id="tabs-3"]/table/tr[1]/td[2]');
 	echo "dimensi : ".$dimensi->item(0)->nodeValue."<br/>";
