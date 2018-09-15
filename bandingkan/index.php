@@ -1,6 +1,7 @@
 <?php  
 	$url1 = $_POST['url1'];
 	$merk1 = $_POST['merk1'];
+	$name1 = $_POST['product_name1'];
 ?>
 <!DOCTYPE html>
 <html>
