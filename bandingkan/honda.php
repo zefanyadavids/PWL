@@ -10,25 +10,7 @@
 		//loop result
 		$i=0;
 		foreach ($results as $result) {
-			?>
-			<div class="col-md-2">
-				<div class="card" style="text-align: center;">
-					<?php
-					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
-					echo $result->nodeValue."<br/>"."<br/>";
-					$url_spesifikasi = "../spesifikasi/spesifikasi-honda-sport-cub.php";
-					$merk1 = "honda";
-					?>	
-					<!--URL untuk select motornya-->
-					<?php  
-					include 'button.php';
-					?>
-				</div>
-			</div>
-			<?php
-			$i++;
-		}
-		//=============cub end=================
+
 
 		//=============matic=================
 		$url = "http://www.astra-honda.com/product-list/matic";
@@ -39,25 +21,6 @@
 		//loop result
 		$i=0;
 		foreach ($results as $result) {
-			?>
-			<div class="col-md-2">
-				<div class="card" style="text-align: center;">
-					<?php
-					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
-					echo $result->nodeValue."<br/>"."<br/>";
-					$url_spesifikasi = "../spesifikasi/spesifikasi-honda-matic.php";
-					$merk2 = "honda";
-					?>	
-					<!--URL untuk select motornya-->
-					<?php  
-					include 'button.php';
-					?>
-				</div>
-			</div>
-			<?php
-			$i++;
-		}
-		//=============matic end=================
 
 		//=============sport=================
 		$url = "http://www.astra-honda.com/product-list/sport";
