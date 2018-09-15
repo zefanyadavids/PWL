@@ -1,0 +1,25 @@
+div#product-list {
+	margin: 0px 75px;
+	padding: 50px;
+}
+
+div#product-item {
+	height: 400px;
+	font-size: 14px;
+	font-family: "Courier new", Courier, Monospace;
+	text-align: center;
+}
+
+div.card {
+	margin: 5% 3%;
+	padding-bottom: 5px;
+}
+
+img {
+	height: 50px;
+}
+
+span.product-name {
+	height: 80px;
+}
+
