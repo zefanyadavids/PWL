@@ -11,11 +11,11 @@
 		$i=0;
 		foreach ($results as $result) {
 			?>
-			<div class="col-md-2">
-				<div class="card" style="text-align: center;">
+			<div class="col-md-2" class="product-item">
+				<div class="card">
 					<?php
 					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
-					echo $result->nodeValue."<br/>"."<br/>";
+					?> <span class="product-name"> <?php echo $result->nodeValue."<br/>" ?> </span> <?php;
 					$url_spesifikasi = "../spesifikasi/spesifikasi-yamaha.php";
 					$merk1 = "yamaha";
 					?>	
@@ -37,11 +37,11 @@
 		$i=0;
 		foreach ($results as $result) {
 			?>
-			<div class="col-md-2">
-				<div class="card" style="text-align: center;">
+			<div class="col-md-2" class="product-item">
+				<div class="card">
 					<?php
 					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
-					echo $result->nodeValue."<br/>"."<br/>";
+					?> <span class="product-name"> <?php echo $result->nodeValue."<br/>" ?> </span> <?php;
 					$url_spesifikasi = "../spesifikasi/spesifikasi-yamaha.php";
 					$merk1 = "yamaha";
 					?>	
@@ -62,11 +62,11 @@
 		$i=0;
 		foreach ($results as $result) {
 			?>
-			<div class="col-md-2">
-				<div class="card" style="text-align: center;">
+			<div class="col-md-2" class="product-item">
+				<div class="card">
 					<?php
 					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
-					echo $result->nodeValue."<br/>"."<br/>";
+					?> <span class="product-name"> <?php echo $result->nodeValue."<br/>"?> </span> <?php;
 					$url_spesifikasi = "../spesifikasi/spesifikasi-yamaha.php";
 					$merk1 = "yamaha";
 					?>	
@@ -87,11 +87,11 @@
 		$i=0;
 		foreach ($results as $result) {
 			?>
-			<div class="col-md-2">
-				<div class="card" style="text-align: center;">
+			<div class="col-md-2" class="product-item">
+				<div class="card">
 					<?php
 					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
-					echo $result->nodeValue."<br/>"."<br/>";
+					?> <span class="product-name"> <?php echo $result->nodeValue."<br/>"?> </span> <?php;
 					$url_spesifikasi = "../spesifikasi/spesifikasi-yamaha.php";
 					$merk1 = "yamaha";
 					?>	
@@ -112,11 +112,11 @@
 		$i=0;
 		foreach ($results as $result) {
 			?>
-			<div class="col-md-2">
-				<div class="card" style="text-align: center;">
+			<div class="col-md-2" class="product-item">
+				<div class="card">
 					<?php
 					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
-					echo $result->nodeValue."<br/>"."<br/>";
+					?> <span class="product-name"> <?php echo $result->nodeValue."<br/>"?> </span> <?php;
 					$url_spesifikasi = "../spesifikasi/spesifikasi-yamaha.php";
 					$merk1 = "yamaha";
 					?>	
@@ -137,11 +137,11 @@
 		$i=0;
 		foreach ($results as $result) {
 			?>
-			<div class="col-md-2">
-				<div class="card" style="text-align: center;">
+			<div class="col-md-2" class="product-item">
+				<div class="card">
 					<?php
 					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
-					echo $result->nodeValue."<br/>"."<br/>";
+					?> <span class="product-name"> <?php echo $result->nodeValue."<br/>"?> </span> <?php;
 					$url_spesifikasi = "../spesifikasi/spesifikasi-yamaha.php";
 					$merk1 = "yamaha";
 					?>	
@@ -162,11 +162,11 @@
 		$i=0;
 		foreach ($results as $result) {
 			?>
-			<div class="col-md-2">
-				<div class="card" style="text-align: center;">
+			<div class="col-md-2" class="product-item">
+				<div class="card">
 					<?php
 					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
-					echo $result->nodeValue."<br/>"."<br/>";
+					?> <span class="product-name"> <?php echo $result->nodeValue."<br/>"?> </span> <?php;
 					$url_spesifikasi = "../spesifikasi/spesifikasi-yamaha.php";
 					$merk1 = "yamaha";
 					?>	
