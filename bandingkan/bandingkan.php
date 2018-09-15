@@ -1,6 +1,6 @@
 <?php  
 	$url1 = $_POST['url1'];
-	$merk1 = $_POST['merk'];
+	$merk1 = $_POST['merk1'];
 ?>
 <!DOCTYPE html>
 <html>
@@ -15,7 +15,7 @@
 </head>
 <body>
 	<div class="row">
-	<?php  
+	<?php
 		include 'yamaha.php';
 		include 'honda.php';  
 		include 'kawasaki.php';
