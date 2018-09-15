@@ -1,4 +1,5 @@
 				<form action="compare-result.php" method="post" enctype="multipart/form-data">
+					<?php echo '"'.$merk1.'"' ?>
 					<input type="hidden" name="merk1" value=<?php echo '"'.$merk1.'"' ?>>
 					<input type="hidden" name="url1" value=<?php echo '"'.$url1.'"' ?>>
 					<input type="hidden" name="merk2" value=<?php echo '"'.$merk2.'"' ?>>

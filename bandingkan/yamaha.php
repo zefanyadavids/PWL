@@ -15,7 +15,7 @@
 				<div class="card" style="text-align: center;">
 					<?php
 					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
-					?> <span class="product-name"> <?php echo $result->nodeValue."<br/>"?> </span> <?php;
+					?> <span class="product-name"> <?php echo $result->nodeValue."<br/>";?> </span> <?php
 					$url_spesifikasi = "../spesifikasi/spesifikasi-yamaha.php";
 					$merk2 = "yamaha";
 					?>	
@@ -41,7 +41,7 @@
 				<div class="card" style="text-align: center;">
 					<?php
 					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
-					?> <span class="product-name"> <?php echo $result->nodeValue."<br/>"?> </span> <?php;
+					?> <span class="product-name"> <?php echo $result->nodeValue."<br/>";?> </span> <?php
 					$url_spesifikasi = "../spesifikasi/spesifikasi-yamaha.php";
 					$merk2 = "yamaha";
 					?>	
@@ -66,7 +66,7 @@
 				<div class="card" style="text-align: center;">
 					<?php
 					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
-					?> <span class="product-name"> <?php echo $result->nodeValue."<br/>"?> </span> <?php;
+					?> <span class="product-name"> <?php echo $result->nodeValue."<br/>";?> </span> <?php
 					$url_spesifikasi = "../spesifikasi/spesifikasi-yamaha.php";
 					$merk2 = "yamaha";
 					?>	
@@ -91,7 +91,7 @@
 				<div class="card" style="text-align: center;">
 					<?php
 					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
-					?> <span class="product-name"> <?php echo $result->nodeValue."<br/>"?> </span> <?php;
+					?> <span class="product-name"> <?php echo $result->nodeValue."<br/>";?> </span> <?php
 					$url_spesifikasi = "../spesifikasi/spesifikasi-yamaha.php";
 					$merk2 = "yamaha";
 					?>	
@@ -116,7 +116,7 @@
 				<div class="card" style="text-align: center;">
 					<?php
 					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
-					?> <span class="product-name"> <?php echo $result->nodeValue."<br/>"?> </span> <?php;
+					?> <span class="product-name"> <?php echo $result->nodeValue."<br/>";?> </span> <?php
 					$url_spesifikasi = "../spesifikasi/spesifikasi-yamaha.php";
 					$merk2 = "yamaha";
 					?>	
@@ -141,7 +141,7 @@
 				<div class="card" style="text-align: center;">
 					<?php
 					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
-					?> <span class="product-name"> <?php echo $result->nodeValue."<br/>"?> </span> <?php;
+					?> <span class="product-name"> <?php echo $result->nodeValue."<br/>";?> </span> <?php
 					$url_spesifikasi = "../spesifikasi/spesifikasi-yamaha.php";
 					$merk2 = "yamaha";
 					?>	
@@ -166,7 +166,7 @@
 				<div class="card" style="text-align: center;">
 					<?php
 					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
-					?> <span class="product-name"> <?php echo $result->nodeValue."<br/>"?> </span> <?php;
+					?> <span class="product-name"> <?php echo $result->nodeValue."<br/>";?> </span> <?php
 					$url_spesifikasi = "../spesifikasi/spesifikasi-yamaha.php";
 					$merk2 = "yamaha";
 					?>	
