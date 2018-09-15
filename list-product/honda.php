@@ -15,7 +15,7 @@
 				<div class="card">
 					<?php
 					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
-					?> <span class="product-name"> <?php echo $result->nodeValue."<br/>"?> </span> <?php;
+					?> <span class="product-name"> <?php echo $result->nodeValue."<br/>";?> </span> <?php
 					$url_spesifikasi = "../spesifikasi/spesifikasi-honda-sport-cub.php";
 					$merk1 = "honda";
 					?>	
@@ -44,7 +44,7 @@
 				<div class="card">
 					<?php
 					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
-					?> <span class="product-name"> <?php echo $result->nodeValue."<br/>"?> </span> <?php;
+					?> <span class="product-name"> <?php echo $result->nodeValue."<br/>";?> </span> <?php
 					$url_spesifikasi = "../spesifikasi/spesifikasi-honda-matic.php";
 					$merk1 = "honda";
 					?>	
@@ -74,7 +74,7 @@
 					<div class="card-content">	
 						<?php
 						echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
-						?> <span class="product-name"> <?php echo $result->nodeValue."<br/>"?> </span> <?php;
+						?> <span class="product-name"> <?php echo $result->nodeValue."<br/>";?> </span> <?php
 						$url_spesifikasi = "../spesifikasi/spesifikasi-honda-sport-cub.php";
 						$merk1 = "honda";
 						?>	
