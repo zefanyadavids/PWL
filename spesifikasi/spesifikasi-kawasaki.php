@@ -1,7 +1,7 @@
 
 <?php 
 	ini_set('display_errors', 'Off');
-	$url = "http://product.kawasaki-motor.co.id/prdcdetail-69-z250sl.html";
+	$url = $_POST['url_detail'];
 	include '../curl.php';
 	include '../dom.php';
 

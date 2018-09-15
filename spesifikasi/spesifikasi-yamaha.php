@@ -1,6 +1,6 @@
 <?php 
 	ini_set('display_errors', 'Off');
-	$url = "https://www.yamaha-motor.co.id/product/xride";
+	$url = $_POST['url_detail'];
 	include '../curl.php';
 	include '../dom.php';
 

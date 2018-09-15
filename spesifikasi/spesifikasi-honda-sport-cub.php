@@ -1,6 +1,6 @@
 <?php 
 	ini_set('display_errors', 'Off');
-	$url = "http://www.astra-honda.com/product/cbr150r";
+	$url = $_POST['url_detail'];
 	include '../curl.php';
 	include '../dom.php';
 
