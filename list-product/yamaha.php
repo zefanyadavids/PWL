@@ -7,28 +7,28 @@
 
 		//===================matic===================
 		include '../get-data/get-data-yamaha-matic.php';
-
 		//loop result
 		$i=0;
 		foreach ($results as $result) {
-			echo "<img src='".$result_image->item($i)->nodeValue."'>"."<br/>";
-			echo $result_url->item($i)->nodeValue."<br/>";
-			echo $result_price->item($i)->nodeValue."<br/>";
-			echo $result->nodeValue."<br/>"."<br/>";
+			?>
+			<div class="col-md-2">
+				<div class="card" style="text-align: center;">
+					<?php
+					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
+					echo $result->nodeValue."<br/>"."<br/>";
+					$url_spesifikasi = "../spesifikasi/spesifikasi-yamaha.php";
+					$merk1 = "yamaha";
+					?>	
+					<!--URL untuk select motornya-->
+					<?php  
+					include 'button.php';
+					?>
+				</div>
+			</div>
+			<?php
 			$i++;
-
-	?>	<!--URL untuk select motornya-->
-		<form action="../spesifikasi/spesifikasi-yamaha.php" method="post" enctype="multipart/form-data">
-			<input type="hidden" name="url_detail" value=<?php echo '"'.$result_url->item($i)->nodeValue.'"' ?>>
-			<input type="submit" name="submit" value="Detail">
-		</form>
-
-		<form action="../bandingkan/bandingkan.php" method="post" enctype="multipart/form-data">
-			<input type="hidden" name="url1" value=<?php echo '"'.$result_url->item($i)->nodeValue.'"' ?>>
-			<input type="submit" name="submit" value="Bandingkan">
-		</form>
-	<?php
-		}	
+		}
+		//===================matic end===================	
 
 		//===================maxi===================
 		include '../get-data/get-data-yamaha-maxi.php';
@@ -36,22 +36,23 @@
 		//loop result
 		$i=0;
 		foreach ($results as $result) {
-			echo "<img src='".$result_image->item($i)->nodeValue."'>"."<br/>";
-			echo $result_url->item($i)->nodeValue."<br/>";
-			echo $result_price->item($i)->nodeValue."<br/>";
-			echo $result->nodeValue."<br/>"."<br/>";
+			?>
+			<div class="col-md-2">
+				<div class="card" style="text-align: center;">
+					<?php
+					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
+					echo $result->nodeValue."<br/>"."<br/>";
+					$url_spesifikasi = "../spesifikasi/spesifikasi-yamaha.php";
+					$merk1 = "yamaha";
+					?>	
+					<!--URL untuk select motornya-->
+					<?php  
+					include 'button.php';
+					?>
+				</div>
+			</div>
+			<?php
 			$i++;
-	?>	<!--URL untuk select motornya-->
-		<form action="../spesifikasi/spesifikasi-yamaha.php" method="post" enctype="multipart/form-data">
-			<input type="hidden" name="url_detail" value=<?php echo '"'.$result_url->item($i)->nodeValue.'"' ?>>
-			<input type="submit" name="submit" value="Detail">
-		</form>
-
-		<form action="../bandingkan/bandingkan.php" method="post" enctype="multipart/form-data">
-			<input type="hidden" name="url1" value=<?php echo '"'.$result_url->item($i)->nodeValue.'"' ?>>
-			<input type="submit" name="submit" value="Bandingkan">
-		</form>
-	<?php
 		}	
 
 		//===================naked bike===================
@@ -60,22 +61,23 @@
 		//loop result
 		$i=0;
 		foreach ($results as $result) {
-			echo "<img src='".$result_image->item($i)->nodeValue."'>"."<br/>";
-			echo $result_url->item($i)->nodeValue."<br/>";
-			echo $result_price->item($i)->nodeValue."<br/>";
-			echo $result->nodeValue."<br/>"."<br/>";
+			?>
+			<div class="col-md-2">
+				<div class="card" style="text-align: center;">
+					<?php
+					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
+					echo $result->nodeValue."<br/>"."<br/>";
+					$url_spesifikasi = "../spesifikasi/spesifikasi-yamaha.php";
+					$merk1 = "yamaha";
+					?>	
+					<!--URL untuk select motornya-->
+					<?php  
+					include 'button.php';
+					?>
+				</div>
+			</div>
+			<?php
 			$i++;
-	?>	<!--URL untuk select motornya-->
-		<form action="../spesifikasi/spesifikasi-yamaha.php" method="post" enctype="multipart/form-data">
-			<input type="hidden" name="url_detail" value=<?php echo '"'.$result_url->item($i)->nodeValue.'"' ?>>
-			<input type="submit" name="submit" value="Detail">
-		</form>
-
-		<form action="../bandingkan/bandingkan.php" method="post" enctype="multipart/form-data">
-			<input type="hidden" name="url1" value=<?php echo '"'.$result_url->item($i)->nodeValue.'"' ?>>
-			<input type="submit" name="submit" value="Bandingkan">
-		</form>
-	<?php
 		}	
 
 		//===================sport===================
@@ -84,22 +86,23 @@
 		//loop result
 		$i=0;
 		foreach ($results as $result) {
-			echo "<img src='".$result_image->item($i)->nodeValue."'>"."<br/>";
-			echo $result_url->item($i)->nodeValue."<br/>";
-			echo $result_price->item($i)->nodeValue."<br/>";
-			echo $result->nodeValue."<br/>"."<br/>";
+			?>
+			<div class="col-md-2">
+				<div class="card" style="text-align: center;">
+					<?php
+					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
+					echo $result->nodeValue."<br/>"."<br/>";
+					$url_spesifikasi = "../spesifikasi/spesifikasi-yamaha.php";
+					$merk1 = "yamaha";
+					?>	
+					<!--URL untuk select motornya-->
+					<?php  
+					include 'button.php';
+					?>
+				</div>
+			</div>
+			<?php
 			$i++;
-	?>	<!--URL untuk select motornya-->
-		<form action="../spesifikasi/spesifikasi-yamaha.php" method="post" enctype="multipart/form-data">
-			<input type="hidden" name="url_detail" value=<?php echo '"'.$result_url->item($i)->nodeValue.'"' ?>>
-			<input type="submit" name="submit" value="Detail">
-		</form>
-
-		<form action="../bandingkan/bandingkan.php" method="post" enctype="multipart/form-data">
-			<input type="hidden" name="url1" value=<?php echo '"'.$result_url->item($i)->nodeValue.'"' ?>>
-			<input type="submit" name="submit" value="Bandingkan">
-		</form>
-	<?php
 		}	
 
 		//===================moviestar===================
@@ -108,22 +111,23 @@
 		//loop result
 		$i=0;
 		foreach ($results as $result) {
-			echo "<img src='".$result_image->item($i)->nodeValue."'>"."<br/>";
-			echo $result_url->item($i)->nodeValue."<br/>";
-			echo $result_price->item($i)->nodeValue."<br/>";
-			echo $result->nodeValue."<br/>"."<br/>";
+			?>
+			<div class="col-md-2">
+				<div class="card" style="text-align: center;">
+					<?php
+					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
+					echo $result->nodeValue."<br/>"."<br/>";
+					$url_spesifikasi = "../spesifikasi/spesifikasi-yamaha.php";
+					$merk1 = "yamaha";
+					?>	
+					<!--URL untuk select motornya-->
+					<?php  
+					include 'button.php';
+					?>
+				</div>
+			</div>
+			<?php
 			$i++;
-	?>	<!--URL untuk select motornya-->
-		<form action="../spesifikasi/spesifikasi-yamaha.php" method="post" enctype="multipart/form-data">
-			<input type="hidden" name="url_detail" value=<?php echo '"'.$result_url->item($i)->nodeValue.'"' ?>>
-			<input type="submit" name="submit" value="Detail">
-		</form>
-
-		<form action="../bandingkan/bandingkan.php" method="post" enctype="multipart/form-data">
-			<input type="hidden" name="url1" value=<?php echo '"'.$result_url->item($i)->nodeValue.'"' ?>>
-			<input type="submit" name="submit" value="Bandingkan">
-		</form>
-	<?php
 		}	
 
 		//===================cbu===================
@@ -132,22 +136,23 @@
 		//loop result
 		$i=0;
 		foreach ($results as $result) {
-			echo "<img src='".$result_image->item($i)->nodeValue."'>"."<br/>";
-			echo $result_url->item($i)->nodeValue."<br/>";
-			echo $result_price->item($i)->nodeValue."<br/>";
-			echo $result->nodeValue."<br/>"."<br/>";
+			?>
+			<div class="col-md-2">
+				<div class="card" style="text-align: center;">
+					<?php
+					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
+					echo $result->nodeValue."<br/>"."<br/>";
+					$url_spesifikasi = "../spesifikasi/spesifikasi-yamaha.php";
+					$merk1 = "yamaha";
+					?>	
+					<!--URL untuk select motornya-->
+					<?php  
+					include 'button.php';
+					?>
+				</div>
+			</div>
+			<?php
 			$i++;
-	?>	<!--URL untuk select motornya-->
-		<form action="../spesifikasi/spesifikasi-yamaha.php" method="post" enctype="multipart/form-data">
-			<input type="hidden" name="url_detail" value=<?php echo '"'.$result_url->item($i)->nodeValue.'"' ?>>
-			<input type="submit" name="submit" value="Detail">
-		</form>
-
-		<form action="../bandingkan/bandingkan.php" method="post" enctype="multipart/form-data">
-			<input type="hidden" name="url1" value=<?php echo '"'.$result_url->item($i)->nodeValue.'"' ?>>
-			<input type="submit" name="submit" value="Bandingkan">
-		</form>
-	<?php
 		}
 
 		//===================atv===================
@@ -156,21 +161,22 @@
 		//loop result
 		$i=0;
 		foreach ($results as $result) {
-			echo "<img src='".$result_image->item($i)->nodeValue."'>"."<br/>";
-			echo $result_url->item($i)->nodeValue."<br/>";
-			echo $result_price->item($i)->nodeValue."<br/>";
-			echo $result->nodeValue."<br/>"."<br/>";
+			?>
+			<div class="col-md-2">
+				<div class="card" style="text-align: center;">
+					<?php
+					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
+					echo $result->nodeValue."<br/>"."<br/>";
+					$url_spesifikasi = "../spesifikasi/spesifikasi-yamaha.php";
+					$merk1 = "yamaha";
+					?>	
+					<!--URL untuk select motornya-->
+					<?php  
+					include 'button.php';
+					?>
+				</div>
+			</div>
+			<?php
 			$i++;
-	?>	<!--URL untuk select motornya-->
-		<form action="../spesifikasi/spesifikasi-yamaha.php" method="post" enctype="multipart/form-data">
-			<input type="hidden" name="url_detail" value=<?php echo '"'.$result_url->item($i)->nodeValue.'"' ?>>
-			<input type="submit" name="submit" value="Detail">
-		</form>
-
-		<form action="../bandingkan/bandingkan.php" method="post" enctype="multipart/form-data">
-			<input type="hidden" name="url1" value=<?php echo '"'.$result_url->item($i)->nodeValue.'"' ?>>
-			<input type="submit" name="submit" value="Bandingkan">
-		</form>
-	<?php
 		}		
 	?>

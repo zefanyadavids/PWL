@@ -7,16 +7,28 @@
 
 		//===================matic===================
 		include '../get-data/get-data-yamaha-matic.php';
-
 		//loop result
 		$i=0;
 		foreach ($results as $result) {
-			echo "<img src='".$result_image->item($i)->nodeValue."'>"."<br/>";
-			echo $results_url->item($i)->nodeValue."<br/>";
-			echo $result_price->item($i)->nodeValue."<br/>";
-			echo $result->nodeValue."<br/>"."<br/>";
+			?>
+			<div class="col-md-2">
+				<div class="card" style="text-align: center;">
+					<?php
+					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
+					echo $result->nodeValue."<br/>"."<br/>";
+					$url_spesifikasi = "../spesifikasi/spesifikasi-yamaha.php";
+					$merk2 = "yamaha";
+					?>	
+					<!--URL untuk select motornya-->
+					<?php  
+					include 'button.php';
+					?>
+				</div>
+			</div>
+			<?php
 			$i++;
-		}	
+		}
+		//===================matic end===================	
 
 		//===================maxi===================
 		include '../get-data/get-data-yamaha-maxi.php';
@@ -24,10 +36,22 @@
 		//loop result
 		$i=0;
 		foreach ($results as $result) {
-			echo "<img src='".$result_image->item($i)->nodeValue."'>"."<br/>";
-			echo $results_url->item($i)->nodeValue."<br/>";
-			echo $result_price->item($i)->nodeValue."<br/>";
-			echo $result->nodeValue."<br/>"."<br/>";
+			?>
+			<div class="col-md-2">
+				<div class="card" style="text-align: center;">
+					<?php
+					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
+					echo $result->nodeValue."<br/>"."<br/>";
+					$url_spesifikasi = "../spesifikasi/spesifikasi-yamaha.php";
+					$merk2 = "yamaha";
+					?>	
+					<!--URL untuk select motornya-->
+					<?php  
+					include 'button.php';
+					?>
+				</div>
+			</div>
+			<?php
 			$i++;
 		}	
 
@@ -37,10 +61,22 @@
 		//loop result
 		$i=0;
 		foreach ($results as $result) {
-			echo "<img src='".$result_image->item($i)->nodeValue."'>"."<br/>";
-			echo $results_url->item($i)->nodeValue."<br/>";
-			echo $result_price->item($i)->nodeValue."<br/>";
-			echo $result->nodeValue."<br/>"."<br/>";
+			?>
+			<div class="col-md-2">
+				<div class="card" style="text-align: center;">
+					<?php
+					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
+					echo $result->nodeValue."<br/>"."<br/>";
+					$url_spesifikasi = "../spesifikasi/spesifikasi-yamaha.php";
+					$merk2 = "yamaha";
+					?>	
+					<!--URL untuk select motornya-->
+					<?php  
+					include 'button.php';
+					?>
+				</div>
+			</div>
+			<?php
 			$i++;
 		}	
 
@@ -50,10 +86,22 @@
 		//loop result
 		$i=0;
 		foreach ($results as $result) {
-			echo "<img src='".$result_image->item($i)->nodeValue."'>"."<br/>";
-			echo $results_url->item($i)->nodeValue."<br/>";
-			echo $result_price->item($i)->nodeValue."<br/>";
-			echo $result->nodeValue."<br/>"."<br/>";
+			?>
+			<div class="col-md-2">
+				<div class="card" style="text-align: center;">
+					<?php
+					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
+					echo $result->nodeValue."<br/>"."<br/>";
+					$url_spesifikasi = "../spesifikasi/spesifikasi-yamaha.php";
+					$merk2 = "yamaha";
+					?>	
+					<!--URL untuk select motornya-->
+					<?php  
+					include 'button.php';
+					?>
+				</div>
+			</div>
+			<?php
 			$i++;
 		}	
 
@@ -63,10 +111,22 @@
 		//loop result
 		$i=0;
 		foreach ($results as $result) {
-			echo "<img src='".$result_image->item($i)->nodeValue."'>"."<br/>";
-			echo $results_url->item($i)->nodeValue."<br/>";
-			echo $result_price->item($i)->nodeValue."<br/>";
-			echo $result->nodeValue."<br/>"."<br/>";
+			?>
+			<div class="col-md-2">
+				<div class="card" style="text-align: center;">
+					<?php
+					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
+					echo $result->nodeValue."<br/>"."<br/>";
+					$url_spesifikasi = "../spesifikasi/spesifikasi-yamaha.php";
+					$merk2 = "yamaha";
+					?>	
+					<!--URL untuk select motornya-->
+					<?php  
+					include 'button.php';
+					?>
+				</div>
+			</div>
+			<?php
 			$i++;
 		}	
 
@@ -76,10 +136,22 @@
 		//loop result
 		$i=0;
 		foreach ($results as $result) {
-			echo "<img src='".$result_image->item($i)->nodeValue."'>"."<br/>";
-			echo $results_url->item($i)->nodeValue."<br/>";
-			echo $result_price->item($i)->nodeValue."<br/>";
-			echo $result->nodeValue."<br/>"."<br/>";
+			?>
+			<div class="col-md-2">
+				<div class="card" style="text-align: center;">
+					<?php
+					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
+					echo $result->nodeValue."<br/>"."<br/>";
+					$url_spesifikasi = "../spesifikasi/spesifikasi-yamaha.php";
+					$merk2 = "yamaha";
+					?>	
+					<!--URL untuk select motornya-->
+					<?php  
+					include 'button.php';
+					?>
+				</div>
+			</div>
+			<?php
 			$i++;
 		}
 
@@ -89,10 +161,22 @@
 		//loop result
 		$i=0;
 		foreach ($results as $result) {
-			echo "<img src='".$result_image->item($i)->nodeValue."'>"."<br/>";
-			echo $results_url->item($i)->nodeValue."<br/>";
-			echo $result_price->item($i)->nodeValue."<br/>";
-			echo $result->nodeValue."<br/>"."<br/>";
+			?>
+			<div class="col-md-2">
+				<div class="card" style="text-align: center;">
+					<?php
+					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
+					echo $result->nodeValue."<br/>"."<br/>";
+					$url_spesifikasi = "../spesifikasi/spesifikasi-yamaha.php";
+					$merk2 = "yamaha";
+					?>	
+					<!--URL untuk select motornya-->
+					<?php  
+					include 'button.php';
+					?>
+				</div>
+			</div>
+			<?php
 			$i++;
 		}		
 	?>

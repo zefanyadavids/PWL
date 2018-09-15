@@ -1,11 +1,12 @@
 <?php  
 	$url1 = $_POST['url1'];
-	//comen
+	$merk1 = $_POST['merk1']
 ?>
 <!DOCTYPE html>
 <html>
 <head>
-	<title>List Product</title>
+	<title>Compare</title>
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
 	<style type="text/css">
 		img {
 			height: 100px;
@@ -13,21 +14,10 @@
 	</style>
 </head>
 <body>
-	<div id="yamaha">
+	<div class="row">
 	<?php  
-		//=============yamaha=============
 		include 'yamaha.php';
-	?>
-	</div>
-	<div id="honda">
-	<?php
-		//=============honda=============
 		include 'honda.php';  
-	?>
-	</div>
-	<div id="kawasaki">
-	<?php  
-		//=============kawasaki=============
 		include 'kawasaki.php';
 	?>
 	</div>
