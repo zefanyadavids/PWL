@@ -2,6 +2,7 @@
 <?php 
 	ini_set('display_errors', 'Off');
 	$url = $_POST['url_detail'];
+	echo $url;
 	include '../curl.php';
 	include '../dom.php';
 

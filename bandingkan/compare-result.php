@@ -1,6 +1,5 @@
 <?php
 	ini_set('display_errors', 'Off');
-	$url = $_POST['url1'];
 	include '../curl.php';
 	include '../dom.php';
 
@@ -17,8 +16,13 @@
 
 	<table>
 		<tr>
+			<td></td>
+			<td>Motor 1</td>
+			<td>Motor 2</td>
+		</tr>
+		<tr>
 			<td>Dimensi</td>
-			<td>1</td>
+			<td></td>
 			<td>1</td>
 		</tr>
 		<tr>
