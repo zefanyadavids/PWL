@@ -47,7 +47,7 @@
 					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
 					?> <span class="product-name"> <?php echo $result->nodeValue."<br/>";?> </span> <?php
 					$url_spesifikasi = "../spesifikasi/spesifikasi-honda-matic.php";
-					$merk2 = "honda";
+					$merk2 = "honda_matic";
 					?>	
 					<!--URL untuk select motornya-->
 					<?php  
