@@ -1,6 +1,6 @@
 <?php 
 	ini_set('display_errors', 'Off');
-	$url = "http://www.astra-honda.com/product/beat-pop-esp";
+	$url = $_POST['url_detail'];
 	include '../curl.php';
 	include '../dom.php';
 
