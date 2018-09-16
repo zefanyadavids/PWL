@@ -11,7 +11,7 @@
 		$i=0;
 		foreach ($results as $result) {
 			?>
-			<div class="col-md-2" class="product-item">
+			<div class="col-md-2 product-item honda cub">
 				<div class="card">
 					<?php
 					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
@@ -28,7 +28,6 @@
 			<?php
 			$i++;
 		}
-
 		//=============cub end=================
 
 		//=============matic=================
@@ -41,7 +40,7 @@
 		$i=0;
 		foreach ($results as $result) {
 			?>
-			<div class="col-md-2" class="product-item">
+			<div class="col-md-2 product-item honda matic">
 				<div class="card">
 					<?php
 					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
@@ -58,7 +57,6 @@
 			<?php
 			$i++;
 		}
-
 		//=============matic end=================
 
 		//=============sport=================
@@ -71,18 +69,20 @@
 		$i=0;
 		foreach ($results as $result) {
 			?>
-			<div class="col-md-2" class="product-item">
+			<div class="col-md-2 product-item honda sport">
 				<div class="card">
-					<?php
-					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
-					?> <span class="product-name"> <?php echo $result->nodeValue."<br/>";?> </span> <?php
-					$url_spesifikasi = "../spesifikasi/spesifikasi-honda-sport-cub.php";
-					$merk2 = "honda";
-					?>	
-					<!--URL untuk select motornya-->
-					<?php  
-					include 'button.php';
-					?>
+					<div class="card-content">	
+						<?php
+						echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
+						?> <span class="product-name"> <?php echo $result->nodeValue."<br/>";?> </span> <?php
+						$url_spesifikasi = "../spesifikasi/spesifikasi-honda-sport-cub.php";
+						$merk2 = "honda";
+						?>	
+						<!--URL untuk select motornya-->
+						<?php  
+						include 'button.php';
+						?>
+					</div>
 				</div>
 			</div>
 			<?php

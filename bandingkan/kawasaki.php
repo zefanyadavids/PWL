@@ -11,8 +11,8 @@
 		$i=0;
 		foreach ($results as $result) {
 			?>
-			<div class="col-md-2" class="product-item">
-				<div class="card" style="text-align: center;">
+			<div class="col-md-2 sport kawasaki">
+				<div class="card">
 					<?php
 					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
 					?> <span class="product-name"> <?php echo $result->nodeValue."<br/>";?> </span> <?php

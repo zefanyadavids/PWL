@@ -11,7 +11,7 @@
 		$i=0;
 		foreach ($results as $result) {
 			?>
-			<div class="col-md-2" class="product-item">
+			<div class="col-md-2 product-item honda cub">
 				<div class="card">
 					<?php
 					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
@@ -40,7 +40,7 @@
 		$i=0;
 		foreach ($results as $result) {
 			?>
-			<div class="col-md-2" class="product-item">
+			<div class="col-md-2 product-item honda matic">
 				<div class="card">
 					<?php
 					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
@@ -69,7 +69,7 @@
 		$i=0;
 		foreach ($results as $result) {
 			?>
-			<div class="col-md-2" class="product-item">
+			<div class="col-md-2 product-item honda sport">
 				<div class="card">
 					<div class="card-content">	
 						<?php
