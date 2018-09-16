@@ -9,9 +9,11 @@
 	<title>Compare</title>
 	<link href="../css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/nav.css">
 </head>
-<body style="margin: 0px 50px;">
-	<div class="row" id="product-item">
+<body>
+	<?php include '../nav.php'; ?>
+	<div class="row" id="product-item" style="margin: 0px 50px;">
 	<?php
 		include 'yamaha.php';
 		include 'honda.php';  
