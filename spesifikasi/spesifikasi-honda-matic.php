@@ -26,8 +26,10 @@
 <head>
 	<title>Detail Honda</title>
 	<link href="../css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../css/nav.css">
 </head>
-<body style="margin: 0px 50px;">
+<body>
+	<?php include '../nav.php'; ?>
 	<div style="text-align: center;">
 		<!-- Image -->
 		<?php 
@@ -38,7 +40,7 @@
 		<h2>Honda <?php echo $_POST['product_name']."<br/>"; ?></h2>
 	</div>
 	
-	<table class="table table-light table-striped" align="center" style="width: 70%">
+	<table class="table table-light table-striped" align="center" style="width: 70%;">
 		<tbody>
 			<tr>
 				<td>Dimensi</td>

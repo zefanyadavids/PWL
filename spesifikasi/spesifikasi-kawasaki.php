@@ -66,8 +66,10 @@
 <head>
 	<title>Detail Kawasaki</title>
 	<link href="../css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../css/nav.css">
 </head>
-<body style="margin: 0px 50px;">
+<body>
+	<?php include '../nav.php'; ?>
 	<div style="text-align: center;">
 		<!-- Image -->
 		<?php 
@@ -81,7 +83,7 @@
 		<h3><?php echo $harga->item(0)->nodeValue."<br/>"; ?></h3>
 	</div>
 	
-	<table class="table table-light table-striped" align="center" style="width: 70%">
+	<table class="table table-light table-striped" align="center" style="width: 70%;">
 		<tbody>
 			<tr>
 				<td>Dimensi</td>
