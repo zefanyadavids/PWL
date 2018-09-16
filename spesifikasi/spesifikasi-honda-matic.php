@@ -31,7 +31,7 @@
 	<div style="text-align: center;">
 		<!-- Image -->
 		<?php 
-			$detail_image = $xpath->query('div[@class="productImage"]/img/@src'); 
+			$detail_image = $xpath->query('/html/body/div[2]/section/div/div[2]/div/div/div[1]/div/div[8]/img/@src'); 
 			echo "<img src='".$detail_image->item(0)->nodeValue."' class='img-thumbnail'>";
 		?>
 		<!-- Name -->
