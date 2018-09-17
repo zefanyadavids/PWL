@@ -11,7 +11,7 @@
 		$i=0;
 		foreach ($results as $result) {
 			?>
-			<div class="col-md-2" class="product-item">
+			<div class="col-md-2 non-sport non-cub product-item yamaha matic">
 				<div class="card">
 					<?php
 					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
@@ -37,7 +37,7 @@
 		$i=0;
 		foreach ($results as $result) {
 			?>
-			<div class="col-md-2" class="product-item">
+			<div class="col-md-2 non-sport non-cub product-item yamaha matic">
 				<div class="card">
 					<?php
 					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
@@ -62,7 +62,7 @@
 		$i=0;
 		foreach ($results as $result) {
 			?>
-			<div class="col-md-2" class="product-item">
+			<div class="col-md-2 non-matic non-cub product-item yamaha sport">
 				<div class="card">
 					<?php
 					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
@@ -87,7 +87,7 @@
 		$i=0;
 		foreach ($results as $result) {
 			?>
-			<div class="col-md-2" class="product-item">
+			<div class="col-md-2 non-matic non-cub product-item yamaha sport">
 				<div class="card">
 					<?php
 					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
@@ -112,7 +112,7 @@
 		$i=0;
 		foreach ($results as $result) {
 			?>
-			<div class="col-md-2" class="product-item">
+			<div class="col-md-2 non-matic non-cub product-item yamaha sport">
 				<div class="card">
 					<?php
 					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
@@ -137,7 +137,7 @@
 		$i=0;
 		foreach ($results as $result) {
 			?>
-			<div class="col-md-2" class="product-item">
+			<div class="col-md-2 non-matic non-cub product-item yamaha sport">
 				<div class="card">
 					<?php
 					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
@@ -162,7 +162,7 @@
 		$i=0;
 		foreach ($results as $result) {
 			?>
-			<div class="col-md-2" class="product-item">
+			<div class="col-md-2 product-item yamaha atv">
 				<div class="card">
 					<?php
 					echo "<img src='".$result_image->item($i)->nodeValue."' class='img-thumbnail'>"."<br/>";
