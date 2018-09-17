@@ -9,8 +9,11 @@
 <head>
 	<title>Hasil Banding</title>
 	<link href="../css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/nav.css">
 </head>
-<body style="margin: 0px 50px;">
+<body>
+	<?php include '../nav.php'; ?>
 	<div style="text-align: center;">
 		<h2>Hasil Perbandingan<br/></h2>
 	</div>
@@ -24,11 +27,6 @@
 			<td>Merk</td>
 			<td>".$_POST['merk1']."</td>
 			<td>".$_POST['merk2']."</td>
-		</tr>
-		<tr>
-			<td>URI</td>
-			<td>".$_POST['url1']."</td>
-			<td>".$_POST['url2']."</td>
 		</tr>
 		<tr>
 			<td>Motor</td>
@@ -170,17 +168,17 @@
 		//=========== YAMAHA Spesifikasi ===============
 		if($_POST['merk2']=="yamaha"){
 			$dimensi2 = $xpath->query('//*[@id="specification"]/section/div[1]/div/section[1]/div[2]/table/tr[1]/td[2]');
-		$tipe_mesin2 = $xpath->query('//*[@id="specification"]/section/div[1]/section/div[2]/table/tr[1]/td[2]');
+			$tipe_mesin2 = $xpath->query('//*[@id="specification"]/section/div[1]/section/div[2]/table/tr[1]/td[2]');
 
-		$volume_silinder2 = $xpath->query('//*[@id="specification"]/section/div[1]/section/div[2]/table/tr[5]/td[2]');
+			$volume_silinder2 = $xpath->query('//*[@id="specification"]/section/div[1]/section/div[2]/table/tr[5]/td[2]');
 
-		$sistem_bahan_bakar2 = $xpath->query('//*[@id="specification"]/section/div[1]/section/div[2]/table/tr[11]/td[2]');
+			$sistem_bahan_bakar2 = $xpath->query('//*[@id="specification"]/section/div[1]/section/div[2]/table/tr[11]/td[2]');
 
-		$kapasitas_tangki2 = $xpath->query('//*[@id="specification"]/section/div[1]/div/section[1]/div[2]/table/tr[6]/td[2]');
+			$kapasitas_tangki2 = $xpath->query('//*[@id="specification"]/section/div[1]/div/section[1]/div[2]/table/tr[6]/td[2]');
 
-		$tipe_tranmisi2 = $xpath->query('//*[@id="specification"]/section/div[1]/section/div[2]/table/tr[13]/td[2]');
+			$tipe_tranmisi2 = $xpath->query('//*[@id="specification"]/section/div[1]/section/div[2]/table/tr[13]/td[2]');
 
-		$harga2 = $xpath->query('//*[@id="target-scroll"]/div/div/div[2]/div/ul[1]/li[1]/p');
+			$harga2 = $xpath->query('//*[@id="target-scroll"]/div/div/div[2]/div/ul[1]/li[1]/p');
 		 }
 		 //=========== END YAMAHA Spesifikasi ===============
 		 
@@ -324,4 +322,3 @@
 		</tr>
 		</tbody
 	</table>";
-	?>
